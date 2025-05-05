@@ -1,0 +1,2 @@
+HumanMessage(content='Where is my refund for order #12345')
+SystemMessage(content='Your refund for order #12345 will credit in 2-3 days')
