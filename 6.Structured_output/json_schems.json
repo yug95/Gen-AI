@@ -1,0 +1,10 @@
+{
+    "title": "JSON Schemas",
+    "type": "object",
+    "description": "JSON Schemas for various data structures",
+    "properties":{
+        "name":"sting",
+        "age":"integer"
+    },
+    "required": ["name"]
+}
