@@ -19,8 +19,13 @@ from src.retriever import retrieve_and_rerank
 from src.prompt import get_prompt
 from src.memory import get_session_history
 import numpy as np
+import os
 
 load_dotenv()
+
+
+OPENAI_API_KEY=os.environ.get('OPENAI_API_KEY')
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 # loader = DirectoryLoader("/Users/yogeshagrawal/Desktop/Gen AI/25.Medical_Chat_bot/Data", glob="*.pdf", loader_cls=PyPDFLoader)
 # docs = loader.load()

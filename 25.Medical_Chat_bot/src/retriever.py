@@ -41,6 +41,8 @@ def retrieve_and_rerank(inputs):
     texts = text_chunk(docs)
     llm = ChatOpenAI()
     embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+    
+    
     vectorstore = FAISS.from_documents(texts, embeddings)
     retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k":20})
     compressor = LLMChainExtractor.from_llm(llm)

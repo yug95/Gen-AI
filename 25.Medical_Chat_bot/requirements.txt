@@ -1,10 +1,9 @@
 langchain
-langchain-core
-
-langchain-openai
-openai
-
+flask
+pypdf
 python-dotenv
-
-numpy
-scikit-learn
+pinecone[grpc]
+langchain-pinecone
+langchain_community
+langchain_openai
+-e .
