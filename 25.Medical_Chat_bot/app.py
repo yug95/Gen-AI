@@ -163,7 +163,7 @@ def index():
 @app.route("/get", methods=["GET", "POST"])
 def ask():
     input = request.form['msg']
-    print(input)
+    # print(input)
     # print(message_histories)
     response = rag_with_memory.invoke({"question": input},
                            config={"configurable": {"session_id": "user-001"}
