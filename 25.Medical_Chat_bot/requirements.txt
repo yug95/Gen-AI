@@ -1,0 +1,10 @@
+langchain
+langchain-core
+
+langchain-openai
+openai
+
+python-dotenv
+
+numpy
+scikit-learn
