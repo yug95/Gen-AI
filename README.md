@@ -4,3 +4,4 @@ Gen AI Learning -
 3. Adaptive RAG and Corrective RAG using Langgraph
 4. Multi Agent Flow
 5. Capstone Project 
+6. Langgraph core concepts
