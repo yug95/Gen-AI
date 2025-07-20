@@ -6,3 +6,6 @@ Gen AI Learning -
 5. Capstone Project 
 6. Langgraph core concepts
 7. MCP Protocol Implemenation
+8. Agentic AI
+9. Supervisor Agent
+10.React Agent
